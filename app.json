@@ -16,7 +16,7 @@
       "inline"
     ],
     "website": "https://github.com/Ashik231/ngc_muthmani",
-    "repository": "https://github.com/Ashik231/ngc_muthmani",
+    "repository": "https://github.com/yadhukrishanyadhukrishan/ngc_muthmani",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot Token. Get from @BotFather.",
