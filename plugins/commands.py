@@ -38,7 +38,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, Script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('𝙉𝙀𝙒𝙂𝙀𝙉 𝘾𝙄𝙉𝙀𝙈𝘼𝙕𝙕𝙕™', url=f'https://t.me/newgen_cinemazzz')
+            InlineKeyboardButton('𝙉𝙀𝙒𝙂𝙀𝙉', url=f'https://t.me/newgen_cinemazzz')
             ],[
             InlineKeyboardButton('HELP', callback_data='help'),
             InlineKeyboardButton('ABOUT', callback_data='about')
@@ -85,7 +85,7 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('𝙉𝙀𝙒𝙂𝙀𝙉 𝘾𝙄𝙉𝙀𝙈𝘼𝙕𝙕𝙕™', url=f'https://t.me/newgen_cinemazzz')
+            InlineKeyboardButton('𝙉𝙀𝙒𝙂𝙀𝙉 ™', url=f'https://t.me/newgen_cinemazzz')
             ],[
             InlineKeyboardButton('HELP', callback_data='help'),
             InlineKeyboardButton('ABOUT', callback_data='about')
