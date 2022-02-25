@@ -40,8 +40,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('𝙉𝙀𝙒𝙂𝙀𝙉', url=f'https://t.me/newgen_cinemazzz')
             ],[
-            InlineKeyboardButton('HELP', callback_data='help'),
-            InlineKeyboardButton('ABOUT', callback_data='about')
+            InlineKeyboardButton('Hhh', callback_data='help'),
+            InlineKeyboardButton('hhOUT', callback_data='about')
             ],[
             InlineKeyboardButton('INLINE MODE', switch_inline_query_current_chat='')
             ],[
@@ -87,7 +87,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('𝙉𝙀𝙒𝙂𝙀𝙉 ™', url=f'https://t.me/newgen_cinemazzz')
             ],[
-            InlineKeyboardButton('HELP', callback_data='help'),
+            InlineKeyboardButton('hhuhhLP', callback_data='help'),
             InlineKeyboardButton('ABOUT', callback_data='about')
             ],[
             InlineKeyboardButton('INLINE MODE', switch_inline_query_current_chat='')
